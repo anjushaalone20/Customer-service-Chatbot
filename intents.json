@@ -1,0 +1,81 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"
+      ],
+      "responses": [
+        "Hello! ✨ Welcome to our support. How can I help you today?",
+        "Hi there! What can I assist you with?",
+        "Greetings! How can I make your day better?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "adios"],
+      "responses": [
+        "Sad to see you go. Have a great day! 👋",
+        "Goodbye! Feel free to reach out if you need more help.",
+        "Take care and thanks for visiting!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["When are you open?", "What are your hours?", "hours of operation", "time are you open", "are you open on weekends"],
+      "responses": [
+        "Our virtual assistance is here **24 hours a day, 7 days a week** for you! 🕒",
+        "We operate 24/7 online to assist you at any time."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["How long does shipping take", "Where is my order", "Track my order", "When will I receive my package", "shipping options", "delivery time"],
+      "responses": [
+        "📦 Standard shipping usually takes **3-5 business days**. You can track your order using the link in your confirmation email.",
+        "Orders are typically processed within 24 hours and shipped within 3-5 days. Expedited options are available at checkout!"
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": ["How to return", "I want a refund", "Return policy", "Can I return my item", "money back", "exchange"],
+      "responses": [
+        "We offer a **30-day hassle-free return policy**. Please visit our Returns center on the website for a printable label.",
+        "You can return or exchange most items within 30 days of receipt. Make sure the item is unused and in original packaging. ♻️"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["talk to a human", "customer service number", "call you", "speak to agent", "human representative", "real person"],
+      "responses": [
+        "I am your primary AI assistant 🤖, but if you need a human, please call **1-800-123-4567** or email **support@ourservice.com**.",
+        "Our human agents are available via email at support@ourservice.com or by phone during regular business hours."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["what payment methods do you accept", "can i pay with paypal", "credit card", "payment options", "how do i pay"],
+      "responses": [
+        "We accept all major credit cards (Visa, MasterCard, Amex), **PayPal**, and **Apple Pay** 💳.",
+        "You can pay securely using credit/debit cards, PayPal, Google Pay, and Apple Pay during checkout."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "that helps", "awesome", "great", "thanks a lot", "appreciate it"],
+      "responses": [
+        "You're very welcome! 😊",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else. 🌟"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who made you", "who created you", "what are you", "are you ai", "are you a bot"],
+      "responses": [
+        "I'm a highly advanced Machine Learning Assistant built natively with Python to provide you with the best support possible! 🚀",
+        "I am an intelligent trained NLP model designed to answer all your needs perfectly!"
+      ]
+    }
+  ]
+}
